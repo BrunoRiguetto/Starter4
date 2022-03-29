@@ -59,7 +59,7 @@ public class Produto {
 	
 	public Double operacao(double valorReal, double percentual) {
 		if (operacao == 'd') {
-			valorFinal = - valorReal - (valorReal * (percentual / 100)) ;
+			valorFinal = valorReal - (valorReal * (percentual / 100)) ;
 		} else if (operacao == 'a') {
 			valorFinal = valorReal * (percentual / 100) + valorReal;
 		}
